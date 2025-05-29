@@ -44,3 +44,19 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.kvv_2905_3315_2.integrations:refdaf
+  packages:
+  - name: Kvv_2905_3315_2Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.kvv_2905_3315_2.referencedata:ref1
+  packages:
+  - name: Kvv_2905_3315_2Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
